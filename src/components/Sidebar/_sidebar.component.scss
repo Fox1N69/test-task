@@ -1,0 +1,40 @@
+
+
+.component__container{
+    display: flex;
+    flex-direction: row; 
+
+
+    .divider__sidebar{
+        height: 100%;
+        border-right: 2px solid #E2E2EA;
+    }
+}
+
+
+.sidebar{
+
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+ 
+    .stack{
+         width: 56px;
+         height: 51px;
+ 
+         padding: 16.65px 18px;
+         margin: 54px 12px;
+ 
+         background-color: #E2E2EA;
+         border-radius: 8px;
+ 
+         img{
+             width: 20px;
+             height: 18.5px;
+         }
+     }
+ 
+     
+ }
+
+ 

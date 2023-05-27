@@ -1,0 +1,93 @@
+//import ...
+
+//var
+$text-color: #11142d;
+
+//code
+.header {
+  max-width: 1540px;
+  height: 80px;
+
+  margin: 0 113px;
+  padding: 20px calc(50% - 990px);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8.56px;
+
+  .icon {
+    width: 42.7px;
+    height: 40px;
+
+    background: #e2e2ea;
+    border-radius: 8px;
+  }
+
+  .title {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.005em;
+
+    color: $text-color;
+  }
+}
+
+.notifications {
+  display: flex;
+}
+
+.profile {
+  margin: 0px 34.22px 0px 0px;
+  display: flex;
+  gap: 17.11px;
+
+  .avatar {
+    width: 42.78px;
+    height: 41.06px;
+
+    background-color: #c4c4c4;
+    border-radius: 20px;
+  }
+
+  .user {
+    .user__name {
+      font-family: "Mulish", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 29px;
+      letter-spacing: 0.005em;
+
+      color: $text-color;
+    }
+
+    .user__position {
+      font-family: "Mulish", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.008em;
+
+      color: #9a9ab0;
+    }
+  }
+}
+
+.divider {
+  width: 1540px;
+  border: 1px solid #e1e1e1;
+}

@@ -1,0 +1,75 @@
+//import
+
+//var
+
+//code
+
+.container {
+  max-width: 1540px;
+  height: 1205px;
+
+  margin: 0 103px;
+  padding: 0 calc(50% - 988px);
+
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.customer__table {
+  display: grid;
+  grid-template-columns: 36px;
+  grid-template-rows: 78.48px 1fr;
+  gap: 20px 0px;
+
+  margin-left: 36px;
+
+  .table__title {
+    margin: 41px 0px 0px 0px;
+
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.005em;
+
+    color: #11142d;
+  }
+}
+
+.table {
+  width: 1388px;
+  height: 956px;
+}
+
+.table__header {
+  display: flex;
+  align-items: flex-start;
+
+  background-color: #f7f7fc;
+  .table__column {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .row__header {
+    height: 66px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-family: "Mulish", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 120%;
+      letter-spacing: 0.005em;
+      color: #11142d;
+      opacity: 0.8;
+    }
+  }
+}
